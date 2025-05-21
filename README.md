@@ -3,6 +3,7 @@
 This project demonstrates a basic Convolutional Neural Network (CNN) implementation using TensorFlow and Keras for image classification.
 
 **Project Overview**
+
 The notebook walks through:
 
 Loading and preprocessing image data
@@ -22,6 +23,7 @@ MaxPooling layers to reduce dimensionality
 Dense layers for final classification
 
 **Technologies Used**
+
 Python
 
 TensorFlow / Keras
@@ -31,6 +33,7 @@ NumPy
 Matplotlib
 
 **How to Run**
+
 Open the notebook CNN_inclass_activity.ipynb
 
 Run each cell in order
