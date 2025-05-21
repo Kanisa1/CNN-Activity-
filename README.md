@@ -1,49 +1,106 @@
-**CNN In-Class Activity**
+### ✅ `README.md` – *CNN Image Classifier with Real Images*
 
-This project demonstrates a basic Convolutional Neural Network (CNN) implementation using TensorFlow and Keras for image classification.
+````markdown
+# 🧠 CNN Image Classifier with Real-World Images
 
-**Project Overview**
+This project demonstrates a simple yet powerful **Convolutional Neural Network (CNN)** built using **TensorFlow** to classify images. You will learn how to preprocess real images, build a custom CNN architecture, train and evaluate the model, and visualize predictions — all within a single Jupyter Notebook.
 
-The notebook walks through:
+> 📸 You’ll start with 3 real images, resize them to 28×28 pixels, and feed them into a deep learning model for classification.
 
-Loading and preprocessing image data
+---
 
-Building a simple CNN architecture
+## 🚀 Features
 
-Compiling and training the model
+- ✅ Load and preprocess real image data (grayscale + resized to 28×28)
+- ✅ Build a simple CNN from scratch using TensorFlow/Keras
+- ✅ Train and evaluate the model on your own image dataset
+- ✅ Make predictions and visualize results
+- ✅ Educational and beginner-friendly structure
 
-Evaluating accuracy and visualizing results
+---
 
-**Model Architecture**
+## 📂 Project Structure
 
-Convolutional layers with ReLU activation
+```bash
+.
+├── CNN_inclass_activity.ipynb   # Main Jupyter Notebook
+├── README.md                    
+├── cat 1.jpg                   
+├── cat 2.jpg
+└── cat 3jpg
+````
 
-MaxPooling layers to reduce dimensionality
+---
 
-Dense layers for final classification
+## 🛠️ Setup Instructions
 
-**Technologies Used**
+### 1. Install Requirements
 
-Python
+Make sure you have Python and the required libraries:
 
-TensorFlow / Keras
+```bash
+pip install tensorflow numpy matplotlib pillow
+```
 
-NumPy
+### 2. Run the Notebook
 
-Matplotlib
+* Open `CNN_inclass_activity.ipynb` in Jupyter or Google Colab.
+* Upload **at least 3 images** (JPG/PNG).
+* Update the `image_paths` list with your image filenames.
+* Run all cells to preprocess, train, evaluate, and visualize.
 
-**How to Run**
+---
 
-Open the notebook CNN_inclass_activity.ipynb
+## 📊 Results
 
-Run each cell in order
+The notebook will show:
 
-View training accuracy, test performance, and sample predictions
+* Model architecture summary
+* Training accuracy and loss
+* Evaluation performance
+* Predicted vs. true labels (visualized)
 
-**Learning Goals**
-Understand the structure and training process of a CNN
+Example output:
 
-Learn how to prepare image data for a neural network
+```
+Loss: 0.0341, Accuracy: 1.0000
+Predicted classes: [0, 1, 2]
+True classes: [0, 1, 2]
+```
 
-Practice building and tuning CNN layers in Keras
+---
+
+## 📈 Sample Visualization
+
+![Sample CNN visualization](https://user-images.githubusercontent.com/placeholder/sample-visual.png)
+
+
+---
+
+## 💡 Use Cases
+
+This project can be adapted for:
+
+* Digit or character recognition
+* Object or shape classification
+* Educational deep learning demos
+* Edge ML with low-resolution image input
+
+---
+
+## 🧠 Future Enhancements
+
+* [ ] Add more images and classes for a stronger dataset
+* [ ] Integrate data augmentation
+* [ ] Include training/validation/test split
+* [ ] Export model for mobile or web deployment
+
+---
+
+## 👩🏽‍💻 Created By
+
+**Kanisa Thiak**
+**Favour Akinwande**
+**Chance Karambizi**
+**Lievin Murayire**
 
